@@ -14,7 +14,7 @@ We also created simplified (chunked) categorical values to reduce the complexity
 
 We then also look for possible transformation needed for normality on the response variable (required for linear regression, but not necessary for neural network or svm).
 
-We have experimented with neural network, svm, random forest regressor and found the random forest performs the best with validation. 
+We have experimented with Lasso, Elastic Net, Kernel Ridge, Gradient Boosted Trees, XGB and LGBM (last three all tree-based models). We also included Ensemble Learning (Averaging vs. Stacking) as alternative models anfd that our stacking module (meta-learning) performs the best (given its flexibility and size). 
 
 For further details on EDA, model construction and analysis, please see notebook. 
 
